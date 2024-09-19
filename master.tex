@@ -1,0 +1,39 @@
+\documentclass[a4paper]{report}
+\input{header.tex}
+\author{Mu-Wei Chung}
+\title{Optimal Transport for Spatial Omics Notes}
+
+\thispagestyle{empty}
+\addbibresource{ref.bib}
+
+\usepackage{adjustbox}
+\usepackage{centernot}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	This is a note template, with all but minimal compilable files provided. Feel free to adjust for your usage.
+
+	Now let's start a simple demo for you to take fancy notes in \LaTeX!
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+
+\lec{3}{3} % this command input lecture tex file from number i to j in the Lectures folder
+
+\newpage
+%─────Appendix────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\appendix
+\appendixpage
+
+\input{appendix.tex}
+
+\newpage
+%─────Reference──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\printbibliography
+
+\end{document}
